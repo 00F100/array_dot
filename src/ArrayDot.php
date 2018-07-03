@@ -16,7 +16,7 @@ namespace ArrayDot
 		 *
 		 * @return ArrayDot\Interfaces\IArrayDot
 		 */
-		public function getInstance()
+		public static function getInstance()
 		{
 			if(!self::$instance instanceof IArrayDot) {
 				self::$instance = new ArrayDot();
