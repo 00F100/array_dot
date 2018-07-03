@@ -7,7 +7,7 @@
     },
     "require-dev": {
         "00f100/phpdbug": "*",
-        "phpunit/phpunit": "6.*"
+        "phpunit/phpunit": "3.*"
     },
     "license": "MIT",
     "authors": [
