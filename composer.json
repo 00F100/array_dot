@@ -1,0 +1,25 @@
+{
+    "name": "00f100/array_dot",
+    "description": "array_dot method to navigate into array",
+    "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "00f100/phpdbug": "*",
+        "phpunit/phpunit": "6.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joao Moraes",
+            "email": "joaomoraesbr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ArrayDot\\": "src/"
+        },
+        "files": ["src/helpers.php"]
+    }
+}
