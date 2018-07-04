@@ -1,6 +1,7 @@
 {
     "name": "00f100/array_dot",
     "description": "array_dot method to navigate into array",
+    "version": "0.1.0",
     "type": "library",
     "require": {
         "php": ">=5.4"
