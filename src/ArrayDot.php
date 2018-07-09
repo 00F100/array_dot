@@ -32,7 +32,7 @@ namespace ArrayDot
 		 * @param string|array $value Value to set into expression
 		 * @return string|array
 		 */
-		public function execute(array &$array, string $expression = null, string $value = null)
+		public function execute(array &$array, string $expression = null, $value = null)
 		{
 			if(empty($expression)) {
 				return $array;
@@ -48,10 +48,9 @@ namespace ArrayDot
 		 *
 		 * @param array $array Array to find expression
 		 * @param string $expression Expression to find
-		 * @param string|array $value Value to set into expression
 		 * @return string|array
 		 */
-		private function get(array $array, string $expression = null, string $value = null)
+		private function get(array $array, string $expression = null)
 		{
 			$index = $array;
 			$keys = explode('.', $expression);
@@ -73,7 +72,7 @@ namespace ArrayDot
 		 * @param string|array $value Value to set into expression
 		 * @return void
 		 */
-		private function set(array &$array, string $expression = null, string $value = null) :void
+		private function set(array &$array, string $expression = null, $value = null) :void
 		{
 			$index = &$array;
 			$keys = explode('.', $expression);
