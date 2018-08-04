@@ -16,9 +16,9 @@ or add in composer.json
 
 ```json
 {
-	"require": {
-		"00f100/array_dot": "*"
-	}
+    "require": {
+        "00f100/array_dot": "*"
+    }
 }
 ```
 
